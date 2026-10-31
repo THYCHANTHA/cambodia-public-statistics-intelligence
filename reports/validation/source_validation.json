@@ -1,0 +1,1906 @@
+{
+ "retrieved_at_utc": "2026-10-31T13:12:29+00:00",
+ "countries_missing": [],
+ "indicators": [
+  {
+   "code": "SP.POP.TOTL",
+   "domain": "demographics",
+   "requested_name": "Total population",
+   "status": "OK",
+   "api_name": "Population, total",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Sta",
+   "note_len": 177,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "SP.POP.GROW",
+   "domain": "demographics",
+   "requested_name": "Population growth (annual %)",
+   "status": "OK",
+   "api_name": "Population growth (annual %)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "World Population Prospects, United Nations (UN), note: Derived from total population, publisher: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from total population;\nDemographic Statistics, Eurosta",
+   "note_len": 275,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "THA": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "SP.URB.TOTL.IN.ZS",
+   "domain": "demographics",
+   "requested_name": "Urban population (% of total)",
+   "status": "OK",
+   "api_name": "Urban population (% of total population)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "World Urbanization Prospects, United Nations (UN), uri: https://population.un.org/wup/, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division",
+   "note_len": 174,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NY.GDP.MKTP.CD",
+   "domain": "economy",
+   "requested_name": "GDP (current US$)",
+   "status": "OK",
+   "api_name": "GDP (current US$)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+   "note_len": 457,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 61,
+     "first": 1965,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 51,
+     "first": 1975,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 59,
+     "first": 1967,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 42,
+     "first": 1984,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 41,
+     "first": 1985,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NY.GDP.MKTP.KD.ZG",
+   "domain": "economy",
+   "requested_name": "GDP growth (annual %)",
+   "status": "OK",
+   "api_name": "GDP growth (annual %)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+   "note_len": 421,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 51,
+     "first": 1975,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 50,
+     "first": 1976,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 41,
+     "first": 1985,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "THA": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 41,
+     "first": 1985,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NY.GDP.PCAP.CD",
+   "domain": "economy",
+   "requested_name": "GDP per capita (current US$)",
+   "status": "OK",
+   "api_name": "GDP per capita (current US$)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+   "note_len": 552,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 61,
+     "first": 1965,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 51,
+     "first": 1975,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 59,
+     "first": 1967,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 42,
+     "first": 1984,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 41,
+     "first": 1985,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "FP.CPI.TOTL.ZG",
+   "domain": "economy",
+   "requested_name": "Inflation",
+   "status": "OK",
+   "api_name": "Inflation, consumer prices (annual %)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "International Financial Statistics database, International Monetary Fund (IMF)",
+   "note_len": 236,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 45,
+     "first": 1981,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 31,
+     "first": 1995,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 37,
+     "first": 1989,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 60,
+     "first": 1960,
+     "last": 2019
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 65,
+     "first": 1961,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 23,
+     "first": 2003,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 30,
+     "first": 1996,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 34,
+     "first": 1992,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NE.EXP.GNFS.ZS",
+   "domain": "economy",
+   "requested_name": "Exports of goods and services (% of GDP)",
+   "status": "OK",
+   "api_name": "Exports of goods and services (% of GDP)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+   "note_len": 480,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 47,
+     "first": 1974,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 33,
+     "first": 1993,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 33,
+     "first": 1984,
+     "last": 2016
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 0,
+     "first": null,
+     "last": null
+    },
+    "PHL": {
+     "n": 45,
+     "first": 1981,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 40,
+     "first": 1986,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NE.IMP.GNFS.ZS",
+   "domain": "economy",
+   "requested_name": "Imports of goods and services (% of GDP)",
+   "status": "OK",
+   "api_name": "Imports of goods and services (% of GDP)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Offices (NSOs);\nNational Accounts data files, Central Banks;\nStaff estimates, World Bank (WB)",
+   "note_len": 483,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 47,
+     "first": 1974,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 33,
+     "first": 1993,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 33,
+     "first": 1984,
+     "last": 2016
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 0,
+     "first": null,
+     "last": null
+    },
+    "PHL": {
+     "n": 45,
+     "first": 1981,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 40,
+     "first": 1986,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 36,
+     "first": 1990,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "SL.UEM.TOTL.ZS",
+   "domain": "agriculture_employment",
+   "requested_name": "Unemployment",
+   "status": "OK",
+   "api_name": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+   "note_len": 114,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "THA": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "SL.AGR.EMPL.ZS",
+   "domain": "agriculture_employment",
+   "requested_name": "Employment in agriculture (% of total employment)",
+   "status": "OK",
+   "api_name": "Employment in agriculture (% of total employment) (modeled ILO estimate)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+   "note_len": 447,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "THA": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "VNM": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 35,
+     "first": 1991,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "NV.AGR.TOTL.ZS",
+   "domain": "agriculture_employment",
+   "requested_name": "Agriculture",
+   "status": "OK",
+   "api_name": "Agriculture, forestry, and fishing, value added (% of GDP)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+   "note_len": 898,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 52,
+     "first": 1974,
+     "last": 2025
+    },
+    "KHM": {
+     "n": 33,
+     "first": 1993,
+     "last": 2025
+    },
+    "IDN": {
+     "n": 43,
+     "first": 1983,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 37,
+     "first": 1989,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "MMR": {
+     "n": 26,
+     "first": 2000,
+     "last": 2025
+    },
+    "PHL": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "SGP": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "THA": {
+     "n": 66,
+     "first": 1960,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 40,
+     "first": 1986,
+     "last": 2025
+    },
+    "CZE": {
+     "n": 33,
+     "first": 1993,
+     "last": 2025
+    }
+   }
+  },
+  {
+   "code": "AG.LND.AGRI.ZS",
+   "domain": "agriculture_employment",
+   "requested_name": "Agricultural land (% of land area)",
+   "status": "OK",
+   "api_name": "Agricultural land (% of land area)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO)",
+   "note_len": 836,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "THA": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 32,
+     "first": 1993,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "AG.LND.ARBL.HA",
+   "domain": "agriculture_employment",
+   "requested_name": "Arable land (hectares)",
+   "status": "OK",
+   "api_name": "Arable land (hectares)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO)",
+   "note_len": 305,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "THA": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 64,
+     "first": 1961,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 32,
+     "first": 1993,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "SE.PRM.ENRR",
+   "domain": "education",
+   "requested_name": "School enrollment",
+   "status": "OK",
+   "api_name": "School enrollment, primary (% gross)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for ",
+   "note_len": 387,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 54,
+     "first": 1970,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 44,
+     "first": 1971,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 54,
+     "first": 1970,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 51,
+     "first": 1971,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 48,
+     "first": 1970,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 42,
+     "first": 1971,
+     "last": 2018
+    },
+    "PHL": {
+     "n": 50,
+     "first": 1971,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 8,
+     "first": 2016,
+     "last": 2023
+    },
+    "THA": {
+     "n": 54,
+     "first": 1971,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 21,
+     "first": 2001,
+     "last": 2023
+    },
+    "VNM": {
+     "n": 48,
+     "first": 1976,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 23,
+     "first": 2001,
+     "last": 2023
+    }
+   }
+  },
+  {
+   "code": "SE.SEC.ENRR",
+   "domain": "education",
+   "requested_name": "School enrollment",
+   "status": "OK",
+   "api_name": "School enrollment, secondary (% gross)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for ",
+   "note_len": 436,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 45,
+     "first": 1970,
+     "last": 2023
+    },
+    "KHM": {
+     "n": 21,
+     "first": 1971,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 53,
+     "first": 1970,
+     "last": 2025
+    },
+    "LAO": {
+     "n": 47,
+     "first": 1971,
+     "last": 2025
+    },
+    "MYS": {
+     "n": 54,
+     "first": 1970,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 39,
+     "first": 1971,
+     "last": 2018
+    },
+    "PHL": {
+     "n": 49,
+     "first": 1971,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 8,
+     "first": 2016,
+     "last": 2023
+    },
+    "THA": {
+     "n": 51,
+     "first": 1971,
+     "last": 2025
+    },
+    "TLS": {
+     "n": 18,
+     "first": 2001,
+     "last": 2020
+    },
+    "VNM": {
+     "n": 13,
+     "first": 1976,
+     "last": 2022
+    },
+    "CZE": {
+     "n": 23,
+     "first": 2001,
+     "last": 2023
+    }
+   }
+  },
+  {
+   "code": "SE.ADT.LITR.ZS",
+   "domain": "education",
+   "requested_name": "Literacy rate",
+   "status": "OK",
+   "api_name": "Literacy rate, adult total (% of people ages 15 and above)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for ",
+   "note_len": 164,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 4,
+     "first": 1981,
+     "last": 2011
+    },
+    "KHM": {
+     "n": 10,
+     "first": 1998,
+     "last": 2021
+    },
+    "IDN": {
+     "n": 13,
+     "first": 1980,
+     "last": 2020
+    },
+    "LAO": {
+     "n": 7,
+     "first": 1995,
+     "last": 2023
+    },
+    "MYS": {
+     "n": 9,
+     "first": 1980,
+     "last": 2022
+    },
+    "MMR": {
+     "n": 7,
+     "first": 1983,
+     "last": 2020
+    },
+    "PHL": {
+     "n": 11,
+     "first": 1980,
+     "last": 2020
+    },
+    "SGP": {
+     "n": 15,
+     "first": 1980,
+     "last": 2021
+    },
+    "THA": {
+     "n": 10,
+     "first": 1980,
+     "last": 2022
+    },
+    "TLS": {
+     "n": 6,
+     "first": 2001,
+     "last": 2022
+    },
+    "VNM": {
+     "n": 7,
+     "first": 1979,
+     "last": 2022
+    },
+    "CZE": {
+     "n": 0,
+     "first": null,
+     "last": null
+    }
+   }
+  },
+  {
+   "code": "SP.DYN.LE00.IN",
+   "domain": "health",
+   "requested_name": "Life expectancy at birth",
+   "status": "OK",
+   "api_name": "Life expectancy at birth, total (years)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "World Population Prospects, United Nations (UN), uri: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publ",
+   "note_len": 186,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "THA": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "SH.DYN.MORT",
+   "domain": "health",
+   "requested_name": "Mortality rate",
+   "status": "OK",
+   "api_name": "Mortality rate, under-5 (per 1,000 live births)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org, publisher: UNICEF, WHO, World Bank, United Nations Population Division;\nWorld Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estima",
+   "note_len": 175,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 50,
+     "first": 1975,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 47,
+     "first": 1978,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 57,
+     "first": 1968,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "THA": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 40,
+     "first": 1985,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 61,
+     "first": 1964,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 65,
+     "first": 1960,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "SH.STA.MMRT",
+   "domain": "health",
+   "requested_name": "Maternal mortality ratio (modeled estimate",
+   "status": "OK",
+   "api_name": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Matern",
+   "note_len": 399,
+   "name_matches": false,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "KHM": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "IDN": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "LAO": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "MYS": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "MMR": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "PHL": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "SGP": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "THA": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "TLS": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "VNM": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    },
+    "CZE": {
+     "n": 39,
+     "first": 1985,
+     "last": 2023
+    }
+   }
+  },
+  {
+   "code": "SH.XPD.CHEX.GD.ZS",
+   "domain": "health",
+   "requested_name": "Current health expenditure (% of GDP)",
+   "status": "OK",
+   "api_name": "Current health expenditure (% of GDP)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+   "note_len": 320,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "KHM": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "IDN": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "LAO": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "MYS": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "MMR": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "PHL": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "SGP": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "THA": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "TLS": {
+     "n": 21,
+     "first": 2003,
+     "last": 2023
+    },
+    "VNM": {
+     "n": 24,
+     "first": 2000,
+     "last": 2023
+    },
+    "CZE": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "EG.ELC.ACCS.ZS",
+   "domain": "environment_digital",
+   "requested_name": "Access to electricity (% of population)",
+   "status": "OK",
+   "api_name": "Access to electricity (% of population)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: https://trackingsdg7.esmap.org/downloads, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date accessed: 2024-05-16, date published: 2023",
+   "note_len": 175,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 35,
+     "first": 1990,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 27,
+     "first": 1998,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 34,
+     "first": 1991,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 32,
+     "first": 1993,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 32,
+     "first": 1993,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 35,
+     "first": 1990,
+     "last": 2024
+    },
+    "THA": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 25,
+     "first": 2000,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 28,
+     "first": 1997,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 35,
+     "first": 1990,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "EG.FEC.RNEW.ZS",
+   "domain": "environment_digital",
+   "requested_name": "Renewable energy consumption (% of total final energy consumption)",
+   "status": "OK",
+   "api_name": "Renewable energy consumption (% of total final energy consumption)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25",
+   "note_len": 96,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "KHM": {
+     "n": 27,
+     "first": 1995,
+     "last": 2021
+    },
+    "IDN": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "LAO": {
+     "n": 33,
+     "first": 1990,
+     "last": 2022
+    },
+    "MYS": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "MMR": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "PHL": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "SGP": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "THA": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "TLS": {
+     "n": 21,
+     "first": 2002,
+     "last": 2022
+    },
+    "VNM": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    },
+    "CZE": {
+     "n": 32,
+     "first": 1990,
+     "last": 2021
+    }
+   }
+  },
+  {
+   "code": "EN.GHG.CO2.PC.CE.AR5",
+   "domain": "environment_digital",
+   "requested_name": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)",
+   "status": "OK",
+   "api_name": "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: https://edgar.jrc.ec.europa.eu/dataset_ghg2024, publisher: JRC European Commission, date published: 2024;\nInternational Energy Agency (IEA), uri: https://edgar.j",
+   "note_len": 392,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "PHL": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "THA": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "VNM": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 55,
+     "first": 1970,
+     "last": 2024
+    }
+   }
+  },
+  {
+   "code": "IT.NET.USER.ZS",
+   "domain": "environment_digital",
+   "requested_name": "Individuals using the Internet (% of population)",
+   "status": "OK",
+   "api_name": "Individuals using the Internet (% of population)",
+   "unit": null,
+   "source": "World Development Indicators",
+   "source_org": "World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: https://datahub.itu.int/",
+   "note_len": 213,
+   "name_matches": true,
+   "pages": 1,
+   "total_rows": 792,
+   "coverage": {
+    "BRN": {
+     "n": 31,
+     "first": 1990,
+     "last": 2024
+    },
+    "KHM": {
+     "n": 29,
+     "first": 1990,
+     "last": 2024
+    },
+    "IDN": {
+     "n": 32,
+     "first": 1990,
+     "last": 2024
+    },
+    "LAO": {
+     "n": 28,
+     "first": 1990,
+     "last": 2024
+    },
+    "MYS": {
+     "n": 34,
+     "first": 1990,
+     "last": 2024
+    },
+    "MMR": {
+     "n": 22,
+     "first": 1990,
+     "last": 2020
+    },
+    "PHL": {
+     "n": 32,
+     "first": 1990,
+     "last": 2024
+    },
+    "SGP": {
+     "n": 35,
+     "first": 1990,
+     "last": 2024
+    },
+    "THA": {
+     "n": 35,
+     "first": 1990,
+     "last": 2024
+    },
+    "TLS": {
+     "n": 19,
+     "first": 1990,
+     "last": 2021
+    },
+    "VNM": {
+     "n": 30,
+     "first": 1990,
+     "last": 2024
+    },
+    "CZE": {
+     "n": 33,
+     "first": 1990,
+     "last": 2024
+    }
+   }
+  }
+ ]
+}

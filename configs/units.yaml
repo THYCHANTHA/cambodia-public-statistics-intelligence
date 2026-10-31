@@ -1,0 +1,36 @@
+# Manually checked unit catalogue. The World Bank API v2 returns an EMPTY `unit` field for all 25 indicators
+# (checked 2026-10-31), so units are recorded here with their provenance.
+#   basis: name       = unit is stated verbatim in the official indicator name returned by the API
+#          inferred   = no unit string is published; inferred from the indicator name AND the API `sourceNote`
+#                       definition (flagged so a reader can see it is not a source-published unit)
+#   estimate_type: only what the official indicator NAME states ("modeled" appears in 3 names); null means the
+#                  name does not say, NOT that the series is a direct report.
+# Supporting official source for every row: the indicator's API metadata record,
+#   https://api.worldbank.org/v2/indicator/<code>?format=json  (name + sourceNote),
+#   public page https://data.worldbank.org/indicator/<code>.
+units:
+  SP.POP.TOTL: {unit: persons, kind: level, basis: inferred, estimate_type: null}
+  SP.POP.GROW: {unit: "% per year", kind: percent, basis: name, estimate_type: null}
+  SP.URB.TOTL.IN.ZS: {unit: "% of total population", kind: percent, basis: name, estimate_type: null}
+  NY.GDP.MKTP.CD: {unit: current US$, kind: level, basis: name, estimate_type: null}
+  NY.GDP.MKTP.KD.ZG: {unit: "% per year", kind: percent, basis: name, estimate_type: null}
+  NY.GDP.PCAP.CD: {unit: current US$ per person, kind: level, basis: name, estimate_type: null}
+  FP.CPI.TOTL.ZG: {unit: "% per year", kind: percent, basis: name, estimate_type: null}
+  NE.EXP.GNFS.ZS: {unit: "% of GDP", kind: percent, basis: name, estimate_type: null}
+  NE.IMP.GNFS.ZS: {unit: "% of GDP", kind: percent, basis: name, estimate_type: null}
+  SL.UEM.TOTL.ZS: {unit: "% of total labor force", kind: percent, basis: name, estimate_type: modeled ILO estimate}
+  SL.AGR.EMPL.ZS: {unit: "% of total employment", kind: percent, basis: name, estimate_type: modeled ILO estimate}
+  NV.AGR.TOTL.ZS: {unit: "% of GDP", kind: percent, basis: name, estimate_type: null}
+  AG.LND.AGRI.ZS: {unit: "% of land area", kind: percent, basis: name, estimate_type: null}
+  AG.LND.ARBL.HA: {unit: hectares, kind: level, basis: name, estimate_type: null}
+  SE.PRM.ENRR: {unit: "% gross", kind: percent, basis: name, estimate_type: null}
+  SE.SEC.ENRR: {unit: "% gross", kind: percent, basis: name, estimate_type: null}
+  SE.ADT.LITR.ZS: {unit: "% of people ages 15 and above", kind: percent, basis: name, estimate_type: null}
+  SP.DYN.LE00.IN: {unit: years, kind: level, basis: name, estimate_type: null}
+  SH.DYN.MORT: {unit: "per 1,000 live births", kind: rate, basis: name, estimate_type: null}
+  SH.STA.MMRT: {unit: "per 100,000 live births", kind: rate, basis: name, estimate_type: modeled estimate}
+  SH.XPD.CHEX.GD.ZS: {unit: "% of GDP", kind: percent, basis: name, estimate_type: null}
+  EG.ELC.ACCS.ZS: {unit: "% of population", kind: percent, basis: name, estimate_type: null}
+  EG.FEC.RNEW.ZS: {unit: "% of total final energy consumption", kind: percent, basis: name, estimate_type: null}
+  EN.GHG.CO2.PC.CE.AR5: {unit: t CO2e/capita, kind: level, basis: name, estimate_type: null}
+  IT.NET.USER.ZS: {unit: "% of population", kind: percent, basis: name, estimate_type: null}

@@ -1,0 +1,65 @@
+{
+ "retrieved_at_max": "2026-10-31T13:20:04+00:00",
+ "window": [
+  1960,
+  2025
+ ],
+ "expected_rows_full_grid": 19800,
+ "rows_loaded": 19800,
+ "reported_values": 13827,
+ "missing_values": 5973,
+ "missing_pct": 30.17,
+ "zero_values": 46,
+ "earliest_year_with_value": 1960,
+ "latest_year_with_value": 2025,
+ "duplicate_keys": 0,
+ "country_indicator_pairs_without_full_year_grid": 0,
+ "parse_issues": {
+  "SP.POP.TOTL": 0,
+  "SP.POP.GROW": 0,
+  "SP.URB.TOTL.IN.ZS": 0,
+  "NY.GDP.MKTP.CD": 0,
+  "NY.GDP.MKTP.KD.ZG": 0,
+  "NY.GDP.PCAP.CD": 0,
+  "FP.CPI.TOTL.ZG": 0,
+  "NE.EXP.GNFS.ZS": 0,
+  "NE.IMP.GNFS.ZS": 0,
+  "SL.UEM.TOTL.ZS": 0,
+  "SL.AGR.EMPL.ZS": 0,
+  "NV.AGR.TOTL.ZS": 0,
+  "AG.LND.AGRI.ZS": 0,
+  "AG.LND.ARBL.HA": 0,
+  "SE.PRM.ENRR": 0,
+  "SE.SEC.ENRR": 0,
+  "SE.ADT.LITR.ZS": 0,
+  "SP.DYN.LE00.IN": 0,
+  "SH.DYN.MORT": 0,
+  "SH.STA.MMRT": 0,
+  "SH.XPD.CHEX.GD.ZS": 0,
+  "EG.ELC.ACCS.ZS": 0,
+  "EG.FEC.RNEW.ZS": 0,
+  "EN.GHG.CO2.PC.CE.AR5": 0,
+  "IT.NET.USER.ZS": 0
+ },
+ "table_row_counts": {
+  "countries": 12,
+  "indicators": 25,
+  "observations": 19800,
+  "data_quality": 300,
+  "ingestion_log": 51
+ },
+ "pairs_with_zero_observations": [
+  [
+   "CZE",
+   "SE.ADT.LITR.ZS"
+  ],
+  [
+   "MMR",
+   "NE.EXP.GNFS.ZS"
+  ],
+  [
+   "MMR",
+   "NE.IMP.GNFS.ZS"
+  ]
+ ]
+}

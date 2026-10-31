@@ -1,0 +1,14 @@
+# Versions below are the ones the test suite was run with (Windows 11, Python 3.12.5).
+requests==2.34.2
+PyYAML==6.0.2
+pandas==2.3.3
+numpy==2.4.3
+pyarrow==21.0.0
+duckdb==2.0.0
+scipy==1.17.0
+plotly==6.3.1
+streamlit==1.53.1
+tabulate==0.9.0
+# development
+pytest==9.0.3
+ruff==0.17.3

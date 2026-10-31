@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. The statistical data have their own licences and sources (docs/data_sources.md)."
+title: "Cambodia Public Statistics Intelligence: An Integrated National and ASEAN Development Data Observatory"
+type: software
+version: 0.1.0
+date-released: 2026-10-31
+license: MIT
+authors:
+  - family-names: Chantha
+    given-names: Thy
+repository-code: "https://github.com/THYCHANTHA/cambodia-public-statistics-intelligence"
+abstract: "A reproducible pipeline and Streamlit observatory that integrates World Bank World Development Indicators for Cambodia, the other ASEAN members and Czechia, with explicit handling of missing data."

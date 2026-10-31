@@ -1,0 +1,15 @@
+# Supported countries. ASEAN membership is stated explicitly; CZE is an external benchmark only.
+# Source for ASEAN membership: https://asean.org/about-us/ (Timor-Leste joined 2025-10-26).
+countries:
+  - {iso3: BRN, group: ASEAN}
+  - {iso3: KHM, group: ASEAN, focus: true}
+  - {iso3: IDN, group: ASEAN}
+  - {iso3: LAO, group: ASEAN}
+  - {iso3: MYS, group: ASEAN}
+  - {iso3: MMR, group: ASEAN}
+  - {iso3: PHL, group: ASEAN}
+  - {iso3: SGP, group: ASEAN}
+  - {iso3: THA, group: ASEAN}
+  - {iso3: TLS, group: ASEAN, asean_member_since: "2025-10-26"}
+  - {iso3: VNM, group: ASEAN}
+  - {iso3: CZE, group: EXTERNAL_BENCHMARK}

@@ -1,0 +1,39 @@
+# Candidate World Bank WDI indicators (source id 2 = World Development Indicators).
+# Codes are CANDIDATES until scripts/validate_sources.py confirms them against the live API;
+# see reports/validation/source_validation.md for the verified result.
+domains:
+  demographics:
+    - {code: SP.POP.TOTL, name: Total population}
+    - {code: SP.POP.GROW, name: Population growth (annual %)}
+    - {code: SP.URB.TOTL.IN.ZS, name: Urban population (% of total)}
+  economy:
+    - {code: NY.GDP.MKTP.CD, name: GDP (current US$)}
+    - {code: NY.GDP.MKTP.KD.ZG, name: GDP growth (annual %)}
+    - {code: NY.GDP.PCAP.CD, name: GDP per capita (current US$)}
+    - {code: FP.CPI.TOTL.ZG, name: Inflation, consumer prices (annual %)}
+    - {code: NE.EXP.GNFS.ZS, name: Exports of goods and services (% of GDP)}
+    - {code: NE.IMP.GNFS.ZS, name: Imports of goods and services (% of GDP)}
+  agriculture_employment:
+    - {code: SL.UEM.TOTL.ZS, name: Unemployment, total (% of labor force)}
+    - {code: SL.AGR.EMPL.ZS, name: Employment in agriculture (% of total employment)}
+    - {code: NV.AGR.TOTL.ZS, name: Agriculture, forestry and fishing value added (% of GDP)}
+    - {code: AG.LND.AGRI.ZS, name: Agricultural land (% of land area)}
+    - {code: AG.LND.ARBL.HA, name: Arable land (hectares)}
+  education:
+    - {code: SE.PRM.ENRR, name: School enrollment, primary (% gross)}
+    - {code: SE.SEC.ENRR, name: School enrollment, secondary (% gross)}
+    - {code: SE.ADT.LITR.ZS, name: Literacy rate, adult total (% of people ages 15 and above)}
+  health:
+    - {code: SP.DYN.LE00.IN, name: Life expectancy at birth, total (years)}
+    - {code: SH.DYN.MORT, name: Mortality rate, under-5 (per 1,000 live births)}
+    - {code: SH.STA.MMRT, name: Maternal mortality ratio (modeled estimate, per 100,000 live births)}
+    - {code: SH.XPD.CHEX.GD.ZS, name: Current health expenditure (% of GDP)}
+  environment_digital:
+    - {code: EG.ELC.ACCS.ZS, name: Access to electricity (% of population)}
+    - {code: EG.FEC.RNEW.ZS, name: Renewable energy consumption (% of total final energy consumption)}
+    # SUBSTITUTION (verified 2026-10-31): requested EN.ATM.CO2E.PC is archived (source "WDI Database Archives",
+    # data endpoint returns "indicator not found... archived"). Replaced by the current WDI series below, whose
+    # DEFINITION DIFFERS: EDGAR (JRC), CO2 only, excluding LULUCF, AR5-based, in t CO2e per capita, 1970-2024.
+    # Values are not comparable with the archived series. See reports/validation/source_validation.md.
+    - {code: EN.GHG.CO2.PC.CE.AR5, name: "Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita)", replaces: EN.ATM.CO2E.PC}
+    - {code: IT.NET.USER.ZS, name: Individuals using the Internet (% of population)}
