@@ -91,4 +91,4 @@ WHO and authorised ASEANstats adapters, UNData, provincial data and map, cluster
 
 ## 19. References and attribution
 
-World Bank, *World Development Indicators*, via the Indicators API (https://api.worldbank.org/v2/); original providers per indicator are in the `indicators` table (for example EDGAR/JRC and IEA for CO2). ASEAN membership: https://asean.org/about-us/. Code: MIT ([LICENSE](LICENSE)); data keep their own licences. Cite with [CITATION.cff](CITATION.cff).
+World Bank, *World Development Indicators*, via the Indicators API (https://api.worldbank.org/v2/); original providers per indicator are in the `indicators` table (for example EDGAR/JRC and IEA for CO2). ASEAN membership: https://asean.org/about-us/. Code: MIT ([LICENSE](LICENSE), which covers the code only); statistical data keep their own licences and are not redistributed here (see docs/data_sources.md). Cite with [CITATION.cff](CITATION.cff).
