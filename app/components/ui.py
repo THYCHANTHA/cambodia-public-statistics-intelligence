@@ -147,6 +147,8 @@ def source_box(d: data_mod.Data, code: str) -> None:
         st.markdown(f"Source: {r.source_name}, World Bank. Original data: {r.source_organization or 'not stated'}")
         st.markdown(f"[Indicator page]({r.source_url}) · Retrieved {pd.Timestamp(r.retrieved_at):%Y-%m-%d}")
         st.markdown(f"Licence: {r.licence}")
+        org = " ".join((r.source_organization or "not stated").split())
+        st.markdown(f"Attribution: *The World Bank: World Development Indicators: {org}*")
         if r.notes:
             st.info(r.notes)
         st.markdown(f"Definition: {r.definition}")

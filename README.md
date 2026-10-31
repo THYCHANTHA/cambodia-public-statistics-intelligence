@@ -14,7 +14,7 @@ Public development statistics are spread across portals with different structure
 
 ## 6. Data sources
 
-Only the **World Bank Indicators API v2** (World Development Indicators) is used. WHO GHO (API returned HTTP 500 on 2026-10-31), ASEANstats (token required), UNData and FAOSTAT are deferred ([docs/NEXT_STEPS.md](docs/NEXT_STEPS.md)). Retrieval: 51 API calls on 2026-10-31, 19,800 rows. Licences and attribution: [docs/data_sources.md](docs/data_sources.md). **Licence caveat:** the World Bank default (CC BY 4.0) and, for the CO2 series, the owner's reading of the indicator page are recorded; the pipeline did not independently re-read licence pages, and third-party terms may apply to individual series.
+Only the **World Bank Indicators API v2** (World Development Indicators) is used. WHO GHO (API returned HTTP 500 on 2026-10-31), ASEANstats (token required), UNData and FAOSTAT are deferred ([docs/NEXT_STEPS.md](docs/NEXT_STEPS.md)). Retrieval: 51 API calls on 2026-10-31, 19,800 rows. Licences and attribution: [docs/data_sources.md](docs/data_sources.md). **Licence audit (2026-10-31):** the World Bank Dataset Terms make CC BY 4.0 the default; the indicator metadata for all 25 series states no different licence or restriction, and the CO2 series was individually verified as CC BY 4.0 by the project owner. 18 series are compiled by third-party international organisations whose own terms were not separately reviewed, so **no statistical data are redistributed in this repository** (the database and cache are generated locally from the public API). Details and per-indicator attribution: [docs/data_sources.md](docs/data_sources.md), [docs/indicator_sources.md](docs/indicator_sources.md).
 
 ## 7. Indicators (25, six domains)
 
@@ -38,13 +38,21 @@ Descriptive statistics on reported values with n shown; annual change only betwe
 
 ## 11. Screenshots
 
-Captured from the running app with headless Edge (some pages need a long render budget; several screenshots were retaken because the first capture showed a loading skeleton or a half-rendered page).
+All nine pages, captured from the running app with headless Edge at 1400 px width. Several captures were retaken because the first attempt showed a loading skeleton or a half-rendered page.
 
-| | |
-|---|---|
-| ![Home](reports/figures/home.png) | ![Economic](reports/figures/economic.png) |
-| ![ASEAN](reports/figures/asean.png) | ![Quality](reports/figures/quality.png) |
-| ![Explorer](reports/figures/explorer.png) | |
+| 1 National Overview | 2 Economic Development | 3 Demographics |
+|---|---|---|
+| ![Home](reports/figures/home.png) | ![Economic](reports/figures/economic.png) | ![Demographics](reports/figures/demographics.png) |
+
+| 4 Education and Health | 5 Agriculture and Employment | 6 Environment and Digital |
+|---|---|---|
+| ![Education and Health](reports/figures/education_health.png) | ![Agriculture](reports/figures/agriculture.png) | ![Environment](reports/figures/environment.png) |
+
+| 7 ASEAN Comparison | 8 Indicator Explorer | 9 Data Quality and Methodology |
+|---|---|---|
+| ![ASEAN](reports/figures/asean.png) | ![Explorer](reports/figures/explorer.png) | ![Quality](reports/figures/quality.png) |
+
+**Narrow-screen check (partial).** Headless Edge cannot render below about 500 px, so the narrow layout was checked at **500 px**, not the requested 390 px (an attempt to embed the app in a 390 px frame failed). At 500 px the KPI cards stack in one column, the sidebar collapses, tabs and tables scroll, and nothing is clipped: [Home](reports/figures/narrow500_home.png), [ASEAN](reports/figures/narrow500_asean.png). 390 px and real devices are not verified.
 
 ## 12-14. Install, run, refresh
 
@@ -61,7 +69,7 @@ The cache, database and Parquet export are generated and git-ignored. No API key
 
 ## 15. Testing
 
-`python -m pytest -q` and `python -m ruff check .` (results are recorded in `reports/validation/`). Final run on this commit: **81 passed, Ruff clean.** Coverage: mocked-HTTP ingestion tests (pagination, retry, timeout, invalid indicator, empty response, malformed payloads); transformation, null/zero and duplicate handling; deterministic statistics fixtures with hand-computed expected values; DuckDB key and constraint enforcement; cross-checks of descriptive statistics, growth, correlation and the CSV export against independent SQL/NumPy on the real data; headless Streamlit tests that run every page and exercise filters, the empty-search state and the missing-database error. **Not tested:** the live API in CI (no integration tests yet), cross-browser rendering, mobile layout. **GitHub Actions has not been run** (the account is billing-locked), so the workflow is unverified.
+`python -m pytest -q` and `python -m ruff check .` (results are recorded in `reports/validation/`). Final run on this commit: **81 passed, Ruff clean.** Coverage: mocked-HTTP ingestion tests (pagination, retry, timeout, invalid indicator, empty response, malformed payloads); transformation, null/zero and duplicate handling; deterministic statistics fixtures with hand-computed expected values; DuckDB key and constraint enforcement; cross-checks of descriptive statistics, growth, correlation and the CSV export against independent SQL/NumPy on the real data; headless Streamlit tests that run every page and exercise filters, the empty-search state and the missing-database error. **Not tested:** the live API in CI (no integration tests yet), cross-browser rendering, mobile layout. **CI status: NOT VERIFIED.** GitHub Actions has not run for this repository (the owner's GitHub account has a billing restriction), so the workflow file in `.github/workflows/ci.yml` has never been executed and no CI result exists.
 
 ## 16. Findings from actual computations (World Bank data retrieved 2026-10-31)
 

@@ -9,5 +9,6 @@
 * **Revisions.** WDI values are revised. The data were retrieved on the date shown on the home page; a later refresh can change values.
 * **Correlations** are exploratory, on non-independent country-year pairs, with no controls and no causal interpretation.
 * **No regional aggregates** are shown; no provincial or sub-national data are included; no map.
-* **Licences** for the World Bank series were taken from the World Bank default and, for the CO2 series, from the owner's reading of the indicator page; they were not independently re-read by the pipeline. Third-party exceptions may apply to individual series.
+* **Licences.** CC BY 4.0 (World Bank default) is applied because no indicator's metadata states otherwise; the CO2 series was individually verified by the owner. 18 series come from third-party international organisations whose own terms were not separately reviewed, which is why no data are redistributed in the repository. See `docs/data_sources.md`.
 * This is not an official product of the Government of Cambodia, the National Institute of Statistics, the World Bank or ASEAN.
+* **Responsive layout** was checked only at 500 px in headless Edge (not 390 px, not real devices), and only on desktop browsers' engine (Chromium/Edge). CSV download clicks were not exercised in a browser; the data behind each button are tested.

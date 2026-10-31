@@ -33,6 +33,22 @@ def main() -> None:
             out.append(f"| {name} | {typ} | {null} |")
         out.append("")
     (ROOT / "docs" / "data_dictionary.md").write_text("\n".join(out), encoding="utf-8")
+    src = [
+        "# Indicator sources and attribution", "",
+        "Generated from the `indicators` table (World Bank API metadata retrieved by the pipeline). Attribution follows the "
+        "World Bank Dataset Terms format: *The World Bank: Dataset name: Data source (if known)*. The API metadata has no "
+        "licence field, and no indicator's metadata states a different licence or restriction.", "",
+        "| Code | Indicator (official API name) | Original data source (API `sourceOrganization`) | Licence status |",
+        "|---|---|---|---|",
+    ]
+    rows = con.execute(
+        "SELECT indicator_code, indicator_name, source_organization, licence FROM indicators ORDER BY domain, indicator_code"
+    ).fetchall()
+    for code, name, org, lic in rows:
+        status = "CC BY 4.0, owner-verified" if "verified by the project owner" in lic else "CC BY 4.0 default, no exception stated"
+        text = " ".join((org or "not stated").split()).replace("|", "/")
+        src.append(f"| `{code}` | {name} | {text} | {status} |")
+    (ROOT / "docs" / "indicator_sources.md").write_text("\n".join(src) + "\n", encoding="utf-8")
     print("written")
 
 

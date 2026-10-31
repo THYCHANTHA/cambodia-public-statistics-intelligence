@@ -62,6 +62,11 @@ with left:
     f, ylabel, how = transformed(d, code, cs, "Reported values", d.start, d.end)
     st.plotly_chart(charts.trend_fig(f, {c: d.cname(c) for c in cs}, ylabel, d.name(code)), width="stretch")
     st.caption("Breaks in a line are years with no reported value. " + (d.ind(code).notes or ""))
+    ui.csv_button(
+        d.slice([code], cs, d.start, d.end)[["country_code", "indicator_code", "year", "value", "unit", "observation_status",
+                                              "source_name", "retrieved_at"]],
+        f"{code}_overview.csv", key="home_csv",
+    )
     ui.source_box(d, code)
 with right:
     st.subheader("Statistical highlights")

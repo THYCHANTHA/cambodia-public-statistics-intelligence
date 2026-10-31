@@ -30,3 +30,10 @@ Nothing below is implemented. Each item lists why it is useful, the data and lib
 **12. Public deployment and automated updates.** Streamlit Community Cloud or a container; a scheduled refresh in CI (needs the GitHub billing lock resolved) with a data-diff report and a licence re-check.
 
 **13. Visual regression and accessibility testing** of the dashboard (screenshots are currently taken manually with headless Edge).
+
+## Added at publication review (2026-10-31)
+**14. Provider-level licence review.** *Why:* 18 of the 25 series are compiled by third-party organisations (UN, IMF, ILO, FAO, UNESCO, UNICEF, WHO, IEA, ITU, EDGAR/JRC) whose own terms were not separately reviewed; the repository therefore redistributes no data. *Approach:* read each provider's terms, record them in `docs/indicator_sources.md`, and only then consider publishing a small sample extract. *Testing:* a test that fails if the generated `docs/indicator_sources.md` is out of date with the `indicators` table.
+
+**15. Verify CI.** The workflow has never run (GitHub billing restriction on the owner's account). After it is resolved, run it, record the real result, and decide whether to add the store build (needs network) as a scheduled job.
+
+**16. Real-device and 390 px layout check, and browser-level CSV download tests** (headless Edge cannot go below ~500 px; AppTest cannot click download buttons).

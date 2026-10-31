@@ -13,12 +13,17 @@ SOURCE_NAME = "World Development Indicators"
 SOURCE_ORG_LABEL = "World Bank"
 INDICATOR_URL = "https://data.worldbank.org/indicator/{code}"
 LICENCE_DEFAULT = (
-    "CC BY 4.0 (World Bank Open Data default). Third-party exceptions are possible: see source_organization."
+    "CC BY 4.0: the World Bank Dataset Terms default for World Bank-produced open datasets. Audit 2026-10-31: the "
+    "indicator metadata (API fields id, name, source, sourceNote, sourceOrganization, topics, unit) states no "
+    "different licence or restriction. The original data provider is third-party (see source_organization); that "
+    "provider's own terms were not separately reviewed."
 )
 LICENCE_CO2 = (
-    "CC BY 4.0 as displayed on the World Bank indicator page (reported by the project owner on 2026-10-31; "
-    "not independently re-read by the pipeline). Underlying data: EDGAR (JRC) and IEA."
+    "CC BY 4.0, individually verified by the project owner on the World Bank indicator page (2026-10-31); the API "
+    "metadata states no different licence or restriction. Original data: EDGAR (JRC, European Commission) and IEA, "
+    "third-party providers whose own terms were not separately reviewed."
 )
+ATTRIBUTION_FORMAT = "The World Bank: World Development Indicators: {org}"
 
 
 class ValidationError(Exception):
