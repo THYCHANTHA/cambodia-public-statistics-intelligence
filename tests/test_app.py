@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 import pytest
@@ -88,3 +89,10 @@ def test_no_database_gives_clear_error_not_traceback(monkeypatch):
     assert any("database not found" in e.value for e in at.error)
     st.cache_resource.clear()
     st.cache_data.clear()
+
+
+def test_quality_page_needs_no_matplotlib(monkeypatch):
+    """Regression: a clean install failed because Styler.background_gradient needs matplotlib (not a requirement)."""
+    monkeypatch.setitem(sys.modules, "matplotlib", None)  # makes `import matplotlib` raise ImportError
+    at = run("08_Data_Quality_Methodology.py")
+    assert not at.exception, [e.value for e in at.exception]

@@ -78,7 +78,7 @@ with tabs[2]:
     hc = quality.historical_coverage(d.obs)
     piv = hc.pivot(index="indicator_code", columns="decade", values="coverage_pct").rename(index=names)
     st.caption("Percent of country-year cells reported, by decade (12 countries). 2020s has only 6 years.")
-    st.dataframe(piv.style.format("{:.0f}", na_rep="-").background_gradient(cmap="Blues", vmin=0, vmax=100), width="stretch")
+    st.plotly_chart(charts.decade_heatmap(piv, "% of country-year cells reported, by indicator and decade"), width="stretch")
 
 with tabs[3]:
     av = quality.availability_by_country(d.obs, d.end)

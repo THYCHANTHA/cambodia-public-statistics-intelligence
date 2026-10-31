@@ -85,6 +85,17 @@ def completeness_heatmap(cm: pd.DataFrame, names: dict[str, str], cnames: dict[s
     return _layout(fig, title, height=520)
 
 
+def decade_heatmap(piv: pd.DataFrame, title: str) -> go.Figure:
+    """rows = indicator names, columns = decades, values = % of cells reported. Plotly only (no matplotlib needed)."""
+    fig = go.Figure(go.Heatmap(
+        z=piv.values, x=list(piv.columns), y=list(piv.index), zmin=0, zmax=100, xgap=1, ygap=1,
+        colorscale=[[0, GREY], [0.0001, "#DCEBF8"], [1, "#12457A"]], texttemplate="%{z:.0f}", textfont={"size": 10},
+        hovertemplate="%{y}<br>%{x}: %{z:.1f}% reported<extra></extra>", colorbar={"title": "% reported"},
+    ))
+    fig.update_yaxes(autorange="reversed")
+    return _layout(fig, title, height=max(300, 26 * len(piv) + 120))
+
+
 def scatter_fig(df: pd.DataFrame, xlabel: str, ylabel: str, names: dict[str, str], title: str) -> go.Figure:
     fig = go.Figure()
     for iso, g in df.groupby("country_code"):
